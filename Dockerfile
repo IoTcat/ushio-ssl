@@ -10,4 +10,4 @@ RUN chmod +x /acme.sh
 
 
 WORKDIR /
-CMD /acme.sh --cron --home "/root/.acme.sh"
+CMD /acme.sh --cron --home "/root/.acme.sh" & sleep 10d
